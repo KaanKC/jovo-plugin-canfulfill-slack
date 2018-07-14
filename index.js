@@ -82,7 +82,6 @@ class SlackError extends Plugin {
             ]
         }
         let inputs = jovo.getPlatform().getInputs();
-        console.log(inputs);
         let counter = 1
         for (let key in inputs) {
             let temp = {
