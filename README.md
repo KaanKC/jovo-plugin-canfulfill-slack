@@ -60,7 +60,7 @@ let options = {
 }
 ```
 
-![Jovo Plugin Slack Error](./_images/slack-error-plugin.png)
+![Jovo Plugin Slack Error](./_images/example.png)
 
 # License
 
