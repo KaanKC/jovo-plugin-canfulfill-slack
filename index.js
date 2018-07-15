@@ -3,7 +3,7 @@ const request = require('request');
 
 const jovoLogo16x16URL = 'https://raw.githubusercontent.com/jovotech/jovo-framework-nodejs/master/docs/img/jovo-logo-16x16.png';
 
-class SlackError extends Plugin {
+class SlackCanfulfill extends Plugin {
     constructor(options) {
         super(options);
         this.webhookURL = options.webhookURL;
@@ -109,5 +109,5 @@ class SlackError extends Plugin {
     }
 }
 
-module.exports = SlackError;
+module.exports = SlackCanfulfill;
 
