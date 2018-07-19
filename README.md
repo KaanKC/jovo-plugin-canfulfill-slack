@@ -1,3 +1,5 @@
+Logs data about incoming Alexa `Canfulfill` requests on Slack
+
 # Installation
 ```sh
 $ npm install jovo-plugin-canfulfill-slack --save
