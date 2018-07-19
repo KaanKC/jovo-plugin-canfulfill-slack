@@ -1,5 +1,5 @@
 {
-  "name": "jovo-plugin-slack-canfulfill-log",
+  "name": "jovo-plugin-canfulfill-slack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

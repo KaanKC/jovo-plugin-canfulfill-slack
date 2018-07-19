@@ -1,17 +1,17 @@
 # Installation
 ```sh
-$ npm install jovo-plugin-slack-canfulfill-log --save
+$ npm install jovo-plugin-canfulfill-slack --save
 ```
 
 In your Jovo project:
 ```javascript
-const SlackCanfulfill = require('jovo-plugin-slack-canfulfill-log');
+const CanfulfillSlack = require('jovo-plugin-canfulfill-slack');
 
 let options = {
     webhookURL: 'yourSlackWebhookURL'
 }
 
-app.register('SlackCanfulfill', new SlackCanfulfill(options));
+app.register('CanfulfillSlack', new CanfulfillSlack(options));
 ```
 To create enable incoming webhooks for your Slack follow this [guide](https://api.slack.com/incoming-webhooks).
 
