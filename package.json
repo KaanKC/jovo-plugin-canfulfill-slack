@@ -1,20 +1,25 @@
 {
   "name": "jovo-plugin-canfulfill-slack",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Logs data about incoming Alexa Canfulfill requests on Slack",
-  "main": "index.js",
+  "main": "dist/src/index",
+  "types": "dist/src/index.d.ts",
   "scripts": {
+    "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kaan Kilic",
+  "author": "Kaan Kilic <kaan@jovo.tech>",
   "license": "MIT",
-  "peerDependencies": {
-    "jovo-framework": "^1.3.3"
+  "devDependencies": {
+    "@types/node": "^10.3.1",
+    "@types/request": "^2.48.1",
+    "typescript": "^3.2.2"
   },
   "dependencies": {
-    "request": "^2.87.0"
+    "jovo-core": "^2.0.2",
+    "request": "^2.88.0"
   },
-  "devDependencies": {
-    "jovo-framework": "^1.3.3"
-  }
+  "files": [
+    "dist/src/**/*"
+  ]
 }
