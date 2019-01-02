@@ -67,6 +67,9 @@ export class SlackCanfulfillPlugin implements Plugin {
         if (!handleRequest.jovo) {
             return;
         }
+        if (handleRequest.jovo.constructor.name !== 'AlexaSkill') {
+            return;
+        }
         if (handleRequest.jovo.$request!.toJSON().request.type === 'CanFulfillIntentRequest') {
             const log = this.createLog(handleRequest);
             this.sendRequest(log);
