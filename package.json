@@ -1,6 +1,6 @@
 {
   "name": "jovo-plugin-canfulfill-slack",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Logs data about incoming Alexa Canfulfill requests on Slack",
   "main": "dist/src/index",
   "types": "dist/src/index.d.ts",
